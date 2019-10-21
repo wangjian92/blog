@@ -15,10 +15,10 @@ module.exports = Object.assign(
     // 自动形成侧边导航
     sidebar: 'auto',
     // 密钥
-    keyPage: {
-      // keys: ['1221'],
-      color: '#3eaf7c', // 登录页动画球的颜色
-      lineColor: '#42b983' // 登录页动画线的颜色
-    }
+    // keyPage: {
+    //   // keys: ['1221'],
+    //   color: '#3eaf7c', // 登录页动画球的颜色
+    //   lineColor: '#42b983' // 登录页动画线的颜色
+    // }
   }
 )

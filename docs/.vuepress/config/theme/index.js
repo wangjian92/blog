@@ -16,7 +16,7 @@ module.exports = Object.assign(
     sidebar: 'auto',
     // 密钥
     keyPage: {
-      keys: ['1221'],
+      // keys: ['1221'],
       color: '#3eaf7c', // 登录页动画球的颜色
       lineColor: '#42b983' // 登录页动画线的颜色
     }

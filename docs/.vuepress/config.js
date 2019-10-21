@@ -13,5 +13,7 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: ['@vuepress/medium-zoom', 'flowchart']
+  plugins: ['@vuepress/medium-zoom', 'flowchart'],
+  base: '/blog/',// 设置站点根路径
+  repo: 'https://github.com/wangjian92/blog'
 }  

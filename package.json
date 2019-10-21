@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "wj's blog",
   "main": "index.js",
-  "repository": "http://recoluan.gitlab.io",
+  "repository": "https://github.com/wangjian92",
   "author": "wj",
   "license": "MIT",
   "scripts": {

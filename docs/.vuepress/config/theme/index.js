@@ -8,7 +8,7 @@ module.exports = Object.assign(
   {
     nav,
     sidebar,
-    // logo: '/head.png',
+    logo: '/w.png',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,

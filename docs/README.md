@@ -4,8 +4,8 @@ bgImage: '/bgm.jpg'
 bgImageStyle: {
   height: '450px'
 }
-faceImage: '/lufy.jpg'
-heroImage: /hero_write.png
+faceImage: '/w.png'
+heroImage: /w.png
 heroImageStyle: {
   maxHeight: '200px',
   display: block,
@@ -13,7 +13,7 @@ heroImageStyle: {
   borderRadius: '50%',
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
-isShowTitleInHome: false
+isShowTitleInHome: true
 actionText: About Me
 actionLink: /views/personalInfo/
 features:

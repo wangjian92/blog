@@ -5,7 +5,7 @@ set -e
 npm run build
 
 # 进入生成的文件夹
-cd public
+cd gh-pages
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME

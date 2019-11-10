@@ -3,7 +3,7 @@ const themeConfig = require('./config/theme/')
 module.exports = {
   title: "恍然大明白",
   description: 'Take your passion and make it come true.',
-  dest: 'public',
+  dest: 'gh-pages',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]

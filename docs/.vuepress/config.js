@@ -14,6 +14,6 @@ module.exports = {
     lineNumbers: true
   },
   plugins: ['@vuepress/medium-zoom', 'flowchart'],
-  base: '/blog/public/',// 设置站点根路径
+  base: '',// 设置站点根路径
   repo: 'https://github.com/wangjian92/blog'
 }  

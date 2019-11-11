@@ -13,7 +13,7 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: ['@vuepress/medium-zoom', 'flowchart'],
+  plugins: ['@vuepress/medium-zoom', 'flowchart', 'vuepress-plugin-mermaidjs'],
   base: '/',// 设置站点根路径
   repo: 'wangjian92.github.io'
 }  

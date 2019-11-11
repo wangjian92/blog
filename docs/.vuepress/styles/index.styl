@@ -2,10 +2,14 @@ html{
     text-shadow: 0 2px 4px rgba(0,0,0,.2);
 }
 
+/* display none */
+
 .footer>span:first-child,
 .comments-wrapper .valine-wrapper #valine.v .info {
     display:none!important;
 }
+
+/* 圆形头像 */
 
 .personal-img{
     max-height: 200px;
@@ -15,6 +19,43 @@ html{
     box-shadow: 0 5px 18px rgba(0,0,0,0.2)
 }
 
+/* mermaid流程图插件居中 */
+
 .center {
     text-align:center;
+}
+
+/* 首页logo动效 */
+
+.home.reco-show .hero img {
+    animation: blur-out 2s cubic-bezier(.86, 0, .07, 1) forwards;
+}
+
+@-webkit-keyframes blur-out{
+  from{
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(100px);
+            filter: blur(100px);
+  }
+  to{
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes blur-out{
+  from{
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(100px);
+            filter: blur(100px);
+  }
+  to{
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }

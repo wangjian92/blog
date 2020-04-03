@@ -21,6 +21,7 @@
     "vuepress-theme-reco": "^1.1.1"
   },
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.4.0",
     "vuepress-plugin-mermaidjs": "^1.1.1"
   }
 }
